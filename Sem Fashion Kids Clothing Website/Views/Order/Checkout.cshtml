@@ -1,0 +1,238 @@
+﻿@model Sem_Fashion_Kids_Clothing_Website.Models.Order
+
+<h2 class="text-center mb-4 fw-bold">💳 Checkout</h2>
+
+<div class="container">
+    <div class="row g-4">
+
+        <!-- ========================= -->
+        <!-- FORM -->
+        <!-- ========================= -->
+        <div class="col-md-6">
+
+            <div class="card shadow-lg border-0 rounded-4 p-4">
+
+                <form asp-action="Checkout"
+                      method="post"
+                      enctype="multipart/form-data"
+                      id="checkoutForm">
+
+                    @Html.AntiForgeryToken()
+
+                    <h5 class="mb-3">👤 Customer Info</h5>
+
+                    <div class="mb-3">
+                        <label class="form-label fw-bold">Full Name</label>
+
+                        <input type="text"
+                               class="form-control bg-light"
+                               value="@ViewBag.FullName"
+                               readonly />
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Phone</label>
+                        <input asp-for="Phone" class="form-control" required />
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Address</label>
+                        <textarea asp-for="Address" class="form-control" rows="3" required></textarea>
+                    </div>
+
+                    <!-- PAYMENT -->
+                    <div class="mb-3">
+                        <label class="form-label">Payment Method</label>
+
+                        <select asp-for="PaymentMethod"
+                                class="form-select"
+                                id="paymentMethod"
+                                required>
+
+                            <option value="">-- Select Payment --</option>
+                            <option value="Telebirr">📱 Telebirr</option>
+                            <option value="Bank">🏦 Bank Transfer</option>
+
+                        </select>
+                    </div>
+
+                    <!-- INFO -->
+                    <div id="paymentInfo" class="alert alert-info small d-none"></div>
+
+                    <!-- BANK PROOF -->
+                    <div id="bankProof" class="mb-3 d-none">
+                        <label class="form-label">Upload payment receipt </label>
+                        <input type="file" name="proofImage" id="proofImage" class="form-control" />
+                    </div>
+
+                    <button type="submit" class="btn btn-success w-100 fw-bold">
+                        Place Order ✅
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+        <!-- ========================= -->
+        <!-- SUMMARY -->
+        <!-- ========================= -->
+        <div class="col-md-6">
+
+            <div class="card shadow-lg border-0 rounded-4 p-4">
+
+                <h4 class="mb-3">🛒 Order Summary</h4>
+                <hr />
+
+                @{
+                    decimal total = 0;
+                }
+
+                @foreach (var item in ViewBag.Cart)
+                {
+                    var subTotal = item.Product.Price * item.Quantity;
+                    total += subTotal;
+
+                    <div class="d-flex justify-content-between align-items-center mb-3 p-3 border rounded">
+
+                        <!-- LEFT -->
+                        <div>
+                            <div class="fw-bold">
+                                @item.Product.Name
+                            </div>
+
+                            <small class="text-muted">
+                                @item.Product.Price ETB × @item.Quantity
+                            </small>
+                        </div>
+
+                        <!-- RIGHT -->
+                        <div class="text-end">
+
+                            <div class="fw-bold text-success">
+                                @subTotal ETB
+                            </div>
+
+                            <!-- REMOVE -->
+                            <a asp-controller="Cart"
+                               asp-action="Remove"
+                               asp-route-id="@item.Id"
+                               class="btn btn-sm btn-outline-danger mt-1"
+                               onclick="return confirm('Remove this item?')">
+                                Remove
+                            </a>
+
+                        </div>
+
+                    </div>
+                }
+
+                <hr />
+
+                <!-- TOTAL -->
+                <div class="d-flex justify-content-between align-items-center">
+
+                    <h5>Total</h5>
+
+                    <h3 class="text-success fw-bold">
+                        @total ETB
+                    </h3>
+
+                </div>
+
+                <!-- CANCEL ALL -->
+                <div class="mt-3 text-end">
+                    <a asp-controller="Cart"
+                       asp-action="Clear"
+                       class="btn btn-outline-danger"
+                       onclick="return confirm('Clear entire cart?')">
+                        ❌ Cancel All
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<!-- ========================= -->
+<!-- JS -->
+<!-- ========================= -->
+<script>
+    const paymentMethod = document.getElementById("paymentMethod");
+    const info = document.getElementById("paymentInfo");
+    const bankProof = document.getElementById("bankProof");
+    const proofInput = document.getElementById("proofImage");
+    const form = document.getElementById("checkoutForm");
+
+    // =========================
+    // PAYMENT METHOD CHANGE
+    // =========================
+    paymentMethod.addEventListener("change", function () {
+
+        if (this.value === "Telebirr") {
+
+            info.classList.remove("d-none");
+            bankProof.classList.remove("d-none");
+
+            info.innerHTML = `
+                    📱 <b>Telebirr Payment</b><br/>
+                    Send to: <b>0936882896</b><br/>
+                    Upload payment screenshot below.<br/>
+                    Admin approval required.
+                `;
+        }
+
+        else if (this.value === "Bank") {
+
+            info.classList.remove("d-none");
+            bankProof.classList.remove("d-none");
+
+            info.innerHTML = `
+                    🏦 <b>Bank Transfer</b><br/>
+                    CBE: 1000468932958<br/>
+                    Name: Gerezgiher Gebremikal<br/>
+                    Upload receipt below.
+                `;
+        }
+
+        else {
+            info.classList.add("d-none");
+            bankProof.classList.add("d-none");
+        }
+    });
+
+    // =========================
+    // FORM VALIDATION
+    // =========================
+    form.addEventListener("submit", function (e) {
+
+        // CHECK PAYMENT METHOD FIRST
+        if (!paymentMethod.value) {
+            e.preventDefault();
+            alert("⚠️ Please select payment method!");
+            paymentMethod.focus();
+            return;
+        }
+
+        // REQUIRE FILE FOR BOTH METHODS
+        if (paymentMethod.value === "Bank" ||
+            paymentMethod.value === "Telebirr") {
+
+            if (!proofInput.files ||
+                proofInput.files.length === 0) {
+
+                e.preventDefault();
+
+                alert("⚠️ Please upload payment receipt before submitting!");
+
+                proofInput.focus();
+
+                return;
+            }
+        }
+    });
+</script>

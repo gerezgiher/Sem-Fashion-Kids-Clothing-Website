@@ -1,0 +1,21 @@
+﻿@model Sem_Fashion_Kids_Clothing_Website.Models.Category
+
+<h2>Add Category</h2>
+
+<form asp-action="Create" method="post">
+
+    <div class="mb-3">
+        <label>Category Name</label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-success">
+        Save
+    </button>
+
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

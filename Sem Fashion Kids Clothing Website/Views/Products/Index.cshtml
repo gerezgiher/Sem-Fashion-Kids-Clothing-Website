@@ -1,0 +1,107 @@
+﻿@model IEnumerable<Sem_Fashion_Kids_Clothing_Website.Models.Product>
+
+<div class="d-flex justify-content-between align-items-center mb-3">
+
+    <h2>🧸 Sem Fashion Products</h2>
+
+    @if (User.IsInRole("Admin"))
+    {
+        <a asp-controller="Products"
+           asp-action="Create"
+           class="btn btn-success">
+            ➕ Add New Product
+        </a>
+    }
+
+</div>
+
+@if (User.IsInRole("Admin"))
+{
+    <div class="alert alert-info">
+        👨‍💼 Admin View: You can manage all products (featured & non-featured)
+    </div>
+}
+
+<div class="container">
+
+    <!-- EMPTY STATE -->
+    @if (!Model.Any())
+    {
+        <div class="alert alert-warning text-center">
+            No products available 😢
+        </div>
+    }
+    else
+    {
+        <div class="row">
+
+            @foreach (var item in Model)
+            {
+                <div class="col-md-3 mb-4">
+
+                    <div class="card shadow-sm h-100">
+
+                        <!-- PRODUCT IMAGE -->
+                        <img src="@item.ImageUrl"
+                             class="card-img-top"
+                             style="height:200px; object-fit:cover;" />
+
+                        <div class="card-body text-center">
+
+                            <!-- NAME -->
+                            <h5>@item.Name</h5>
+
+                            <!-- CATEGORY -->
+                            <p class="text-muted">
+                                @item.Category?.Name
+                            </p>
+
+                            <!-- PRICE -->
+                            <h6 class="text-success fw-bold">
+                                @item.Price ETB
+                            </h6>
+
+                            <!-- ========================= -->
+                            <!-- ADMIN ONLY CONTROLS -->
+                            <!-- ========================= -->
+                            @if (User.IsInRole("Admin"))
+                            {
+                                <a asp-action="ToggleFeatured"
+                                   asp-route-id="@item.Id"
+                                   class="btn btn-sm mb-2 @(item.IsFeatured ? "btn-success" : "btn-danger")">
+
+                                    @(item.IsFeatured ? "✅ Shown on Home" : "❌ Hidden from Home")
+                                </a>
+                            }
+
+                            <!-- ========================= -->
+                            <!-- CUSTOMER + ADMIN ACTIONS -->
+                            <!-- ========================= -->
+                            <div class="d-grid gap-2">
+
+                                <a asp-controller="Cart"
+                                   asp-action="AddToCart"
+                                   asp-route-id="@item.Id"
+                                   class="btn btn-primary">
+                                    🛒 Add to Cart
+                                </a>
+
+                                <a asp-action="Details"
+                                   asp-route-id="@item.Id"
+                                   class="btn btn-outline-secondary btn-sm">
+                                    View Details
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            }
+
+        </div>
+    }
+
+</div>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\inetpub\wwwroot\semh</_PublishTargetUrl>
+    <History>True|2026-08-03T07:23:43.5117175Z||;True|2026-08-03T10:23:33.2317057+03:00||;True|2026-07-17T16:34:41.2503784+03:00||;True|2026-07-17T16:31:35.5881304+03:00||;True|2026-07-17T12:15:43.2904508+03:00||;True|2026-07-17T12:15:38.8945303+03:00||;True|2026-07-17T12:09:47.3337035+03:00||;True|2026-07-17T12:08:45.9115005+03:00||;False|2026-07-17T12:05:40.3395409+03:00||;True|2026-07-17T09:53:54.8233259+03:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

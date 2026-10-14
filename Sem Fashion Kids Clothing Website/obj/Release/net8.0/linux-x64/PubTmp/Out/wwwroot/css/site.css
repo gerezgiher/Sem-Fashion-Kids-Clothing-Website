@@ -1,0 +1,69 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+/* HERO */
+.hero-section {
+    height: 70vh;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/images/banner.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* INFO BOX */
+.info-box {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 12px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* PRODUCT CARD */
+.product-card {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    background: white;
+}
+
+    .product-card:hover {
+        transform: translateY(-5px);
+    }
+
+/* IMAGE */
+.img-box {
+    height: 220px;
+    overflow: hidden;
+}
+
+    .img-box img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+/* PRICE */
+.price {
+    color: green;
+    font-weight: bold;
+}

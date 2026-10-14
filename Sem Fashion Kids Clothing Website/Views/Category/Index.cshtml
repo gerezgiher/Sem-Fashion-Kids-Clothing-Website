@@ -1,0 +1,71 @@
+﻿@model IEnumerable<Sem_Fashion_Kids_Clothing_Website.Models.Category>
+
+@{
+    ViewData["Title"] = "Categories";
+}
+
+<h3 class="text-center mb-4 fw-bold">📂 Categories</h3>
+
+<a class="btn btn-success mb-3"
+   asp-controller="Category"
+   asp-action="Create">
+    + Add Category
+</a>
+
+@if (!Model.Any())
+{
+    <div class="text-center mt-4">
+        <h5 class="text-muted">No categories found 😢</h5>
+    </div>
+}
+else
+{
+    <div class="table-responsive">
+
+        <table id="categoryTable"
+               class="table table-striped table-bordered custom-datatable">
+
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                @foreach (var item in Model)
+                {
+                    <tr data-href="@Url.Action("Edit", "Category", new { id = item.Id })">
+
+                        <td>@item.Id</td>
+                        <td class="fw-semibold">@item.Name</td>
+
+                        <td>
+                            <div class="d-flex gap-2">
+
+                                <a asp-action="Edit"
+                                   asp-route-id="@item.Id"
+                                   class="btn btn-outline-primary">
+                                    Edit
+                                </a>
+
+                                <a asp-action="Delete"
+                                   asp-route-id="@item.Id"
+                                   class="btn btn-outline-danger"
+                                   onclick="return confirm('Are you sure?')">
+                                    Delet
+                                </a>
+
+                            </div>
+                        </td>
+
+                    </tr>
+                }
+
+            </tbody>
+
+        </table>
+    </div>
+}

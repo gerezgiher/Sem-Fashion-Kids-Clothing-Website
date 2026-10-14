@@ -1,0 +1,452 @@
+﻿@model IEnumerable<Sem_Fashion_Kids_Clothing_Website.Models.Order>
+
+@{
+    ViewData["Title"] = "My Orders";
+}
+
+<div class="container py-5">
+
+    <!-- Header -->
+    <div class="mb-5">
+        <h2 class="fw-bold">
+            📦 My Orders
+        </h2>
+
+        <p class="text-muted">
+            View your orders, track delivery progress and get support
+        </p>
+    </div>
+
+
+    @if (Model != null && Model.Any())
+    {
+
+        foreach (var item in Model)
+        {
+
+            <div class="card border-0 shadow-sm rounded-4 mb-4">
+
+
+                <!-- Order Top -->
+                <div class="card-header bg-white border-0 p-4">
+
+                    <div class="row align-items-center">
+
+
+                        <div class="col-md-4">
+
+                            <h5 class="fw-bold mb-1">
+                                Order #@item.Id
+                            </h5>
+
+                            <small class="text-muted">
+                                Placed on @item.OrderDate.ToString("dd MMM yyyy")
+                            </small>
+
+                        </div>
+
+
+
+                        <div class="col-md-4 text-md-center">
+
+                            <span class="text-muted">
+                                Total
+                            </span>
+
+                            <h5 class="fw-bold text-primary">
+                                @item.TotalAmount.ToString("N2") ETB
+                            </h5>
+
+                        </div>
+
+
+
+                        <div class="col-md-4 text-md-end">
+
+
+                            @if (item.Status == "Approved")
+                            {
+                                <span class="badge bg-success rounded-pill px-4 py-2">
+                                    ✅ Order Confirmed
+                                </span>
+                            }
+                            else if (item.Status == "PendingApproval")
+                            {
+                                <span class="badge bg-warning text-dark rounded-pill px-4 py-2">
+                                    ⏳ Payment Review
+                                </span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-danger rounded-pill px-4 py-2">
+                                    ❌ Rejected
+                                </span>
+                            }
+
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+
+                <div class="card-body p-4">
+
+
+                    <!-- Customer -->
+                    <div class="mb-4">
+
+                        <h6 class="fw-bold">
+                            Hello @item.CustomerName 👋
+                        </h6>
+
+                        <p class="text-muted mb-0">
+                            Thank you for shopping with
+                            <strong>Sem Fashion Kids Store</strong>
+                        </p>
+
+                    </div>
+
+
+
+                    <!-- Order Tracking Timeline -->
+
+                    <div class="order-progress mb-5">
+
+
+                        <div class="step completed">
+
+                            <div class="circle">
+                                ✓
+                            </div>
+
+                            <small>
+                                Ordered
+                            </small>
+
+                        </div>
+
+
+
+                        <div class="line
+                            @(item.Status == "Approved" ? "active":"")">
+                        </div>
+
+
+
+                        <div class="step
+                            @(item.Status == "Approved" ? "completed":"")">
+
+
+                            <div class="circle">
+                                @(item.Status == "Approved" ? "✓" : "2")
+                            </div>
+
+
+                            <small>
+                                Payment Verified
+                            </small>
+
+
+                        </div>
+
+
+
+                        <div class="line
+                            @(item.Status == "Approved" ? "active":"")">
+                        </div>
+
+
+
+                        <div class="step">
+
+
+                            <div class="circle">
+                                3
+                            </div>
+
+
+                            <small>
+                                Delivery
+                            </small>
+
+
+                        </div>
+
+
+                    </div>
+
+
+
+
+                    <!-- Order Details -->
+
+                    <div class="row g-4">
+
+
+                        <div class="col-md-4">
+
+                            <div class="bg-light rounded-3 p-3">
+
+                                <small class="text-muted">
+                                    Payment Method
+                                </small>
+
+                                <h6 class="fw-bold mt-2">
+                                    @item.PaymentMethod
+                                </h6>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <div class="col-md-4">
+
+
+                            <div class="bg-light rounded-3 p-3">
+
+                                <small class="text-muted">
+                                    Phone
+                                </small>
+
+                                <h6 class="fw-bold mt-2">
+                                    @item.Phone
+                                </h6>
+
+                            </div>
+
+
+                        </div>
+
+
+
+                        <div class="col-md-4">
+
+
+                            <div class="bg-light rounded-3 p-3">
+
+
+                                <small class="text-muted">
+                                    Delivery Address
+                                </small>
+
+
+                                <h6 class="fw-bold mt-2">
+                                    @item.Address
+                                </h6>
+
+
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+
+
+
+                    <hr class="my-4" />
+
+
+
+                    <!-- Messages -->
+                    @if (item.Status == "PendingApproval")
+                    {
+
+                        <div class="alert alert-warning border-0 rounded-4">
+
+                            ⏳
+                            <strong>
+                                Payment verification in progress
+                            </strong>
+
+                            <br />
+
+                            Our team is checking your payment.
+                            Your order will be confirmed soon.
+
+                        </div>
+
+
+                    }
+                    else if (item.Status == "Approved")
+                    {
+
+                        <div class="alert alert-success border-0 rounded-4">
+
+
+                            🎉
+                            <strong>
+                                Your order has been approved
+                            </strong>
+
+                            <br />
+
+                            We are preparing your items for delivery.
+
+
+                        </div>
+
+
+                    }
+                    else
+                    {
+
+
+                        <div class="alert alert-danger border-0 rounded-4">
+
+                            ❌
+                            <strong>
+                                Payment verification failed
+                            </strong>
+
+                            <br />
+
+                            Please contact support to resolve this issue.
+
+                        </div>
+
+
+                    }
+
+
+
+                    <!-- Actions -->
+
+                    <div class="d-flex flex-wrap gap-2">
+
+                        <a asp-controller="Order"
+                           asp-action="Details"
+                           asp-route-id="@item.Id"
+                           class="btn btn-outline-primary rounded-pill px-4">
+
+                            📄 View Order Details
+
+                        </a>
+
+
+
+                        <a class="btn btn-success rounded-pill px-4"
+                           target="_blank"
+                           href="@($"https://wa.me/251936882896?text=Hello%20Sem%20Fashion%20Support,%20my%20name%20is%20{Uri.EscapeDataString(item.CustomerName ?? "Customer")}%20and%20my%20order%20ID%20is%20%23{item.Id}")">
+
+                            💬 Contact Support
+
+                        </a>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+        }
+
+
+    }
+    else
+    {
+
+        <div class="text-center py-5">
+
+            <div style="font-size:70px">
+                🛒
+            </div>
+
+
+            <h4>
+                No orders yet
+            </h4>
+
+
+            <p class="text-muted">
+                Your purchases will appear here.
+            </p>
+
+
+            <a asp-controller="Home"
+               asp-action="Index"
+               class="btn btn-primary rounded-pill px-4">
+
+                Start Shopping
+
+            </a>
+
+
+        </div>
+
+    }
+
+
+</div>
+
+
+
+<style>
+
+    .order-progress {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .step {
+        text-align: center;
+        min-width: 120px;
+    }
+
+
+    .circle {
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        background: #ddd;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        font-weight: bold;
+    }
+
+
+    .completed .circle {
+        background: #198754;
+        color: white;
+    }
+
+
+
+    .line {
+        height: 4px;
+        width: 100px;
+        background: #ddd;
+    }
+
+
+        .line.active {
+            background: #198754;
+        }
+
+
+
+    @@media(max - width:768px) {
+        .order-progress
+
+    {
+        overflow-x: auto;
+        justify-content: flex-start;
+    }
+
+    }
+</style>

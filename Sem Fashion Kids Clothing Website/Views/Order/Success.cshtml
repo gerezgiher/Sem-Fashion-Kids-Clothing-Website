@@ -1,0 +1,319 @@
+﻿@model Sem_Fashion_Kids_Clothing_Website.Models.Order
+
+@{
+    ViewData["Title"] = "Order Success";
+}
+
+
+@if (Model == null)
+{
+    <div class="container py-5">
+        <div class="alert alert-danger text-center">
+            Order information not found.
+        </div>
+    </div>
+
+    return;
+}
+
+
+
+<div class="container py-5">
+
+    <div class="row justify-content-center">
+
+        <div class="col-lg-7">
+
+
+            <div class="card border-0 shadow-lg p-5 text-center"
+                 style="border-radius:20px;">
+
+
+
+                <!-- SUCCESS -->
+                <div style="font-size:65px;">
+                    🎉
+                </div>
+
+
+                <h2 class="text-success fw-bold mt-3">
+                    Order Placed Successfully!
+                </h2>
+
+
+                <p class="text-muted mt-3">
+                    Thank you for shopping with
+                    <strong>Sem Fashion Kids 👕</strong>
+                    <br />
+
+                    Your order has been received successfully.
+                </p>
+
+
+
+                <hr />
+
+
+
+                <!-- ORDER DETAILS -->
+
+                <div class="bg-light rounded p-4 text-start">
+
+
+                    <h5 class="fw-bold mb-3">
+                        📦 Order Details
+                    </h5>
+
+
+                    <p>
+                        <strong>Order Number:</strong>
+                        #@Model.Id
+                    </p>
+
+
+                    <p>
+                        <strong>Order Date:</strong>
+                        @Model.OrderDate.ToString("dd MMM yyyy")
+                    </p>
+
+
+                    <p>
+                        <strong>Total Amount:</strong>
+                        @Model.TotalAmount.ToString("N2") ETB
+                    </p>
+
+
+                    <p>
+                        <strong>Payment Method:</strong>
+                        @Model.PaymentMethod
+                    </p>
+
+
+
+                    <p>
+                        <strong>Status:</strong>
+
+
+                        @if (Model.Status == "Pending")
+                        {
+                            <span class="badge bg-warning text-dark">
+                                Pending Payment Verification
+                            </span>
+                        }
+                        else if (Model.Status == "Approved")
+                        {
+                            <span class="badge bg-success">
+                                Approved
+                            </span>
+                        }
+                        else
+                        {
+                            <span class="badge bg-secondary">
+                                @Model.Status
+                            </span>
+                        }
+
+                    </p>
+
+
+                </div>
+
+
+
+
+
+                <!-- PAYMENT -->
+
+                <h5 class="fw-bold mt-4 mb-3">
+                    💳 Payment Instructions
+                </h5>
+
+
+                <div class="bg-light rounded p-3 text-start">
+
+
+                    @if (Model.PaymentMethod == "Telebirr")
+                    {
+
+                        <p>
+                            📱 Send payment through:
+                        </p>
+
+                        <p class="mb-0">
+                            <strong>Telebirr:</strong>
+                            0936882896
+                        </p>
+
+                    }
+                    else
+                    {
+
+                        <p>
+                            🏦 Bank Transfer:
+                        </p>
+
+
+                        <p class="mb-0">
+
+                            <strong>
+                                Commercial Bank of Ethiopia
+                            </strong>
+
+                            <br />
+
+                            Account:
+                            <b>1000468932958</b>
+
+                        </p>
+
+                    }
+
+
+                </div>
+
+
+
+
+                <div class="alert alert-warning mt-3">
+
+                    ⚠️ Please keep your transaction reference.
+                    Your payment will be verified by our team.
+
+                </div>
+
+
+
+
+
+                <!-- REVIEW -->
+                <!-- REVIEW -->
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <div class="card shadow-sm border-0 mt-4 p-4">
+
+                        <h5 class="fw-bold">
+                            ⭐ Rate Your Shopping Experience
+                        </h5>
+
+                        <p class="text-muted">
+                            Your feedback helps other customers.
+                        </p>
+
+
+                        <form asp-controller="Reviews"
+                              asp-action="Create"
+                              method="post">
+
+
+                            @Html.AntiForgeryToken()
+
+
+                            <div class="mb-3">
+
+                                <select name="Rating"
+                                        class="form-select"
+                                        required>
+
+                                    <option value="">
+                                        Select Rating
+                                    </option>
+
+                                    <option value="5">
+                                        ⭐⭐⭐⭐⭐ Excellent
+                                    </option>
+
+                                    <option value="4">
+                                        ⭐⭐⭐⭐ Very Good
+                                    </option>
+
+                                    <option value="3">
+                                        ⭐⭐⭐ Good
+                                    </option>
+
+                                    <option value="2">
+                                        ⭐⭐ Fair
+                                    </option>
+
+                                    <option value="1">
+                                        ⭐ Poor
+                                    </option>
+
+                                </select>
+
+                            </div>
+
+
+                            <textarea name="Comment"
+                                      class="form-control mb-3"
+                                      rows="4"
+                                      placeholder="Write your review..."
+                                      required></textarea>
+
+
+                            <button type="submit"
+                                    class="btn btn-primary w-100 fw-bold">
+
+                                ⭐ Submit Review
+
+                            </button>
+
+
+                        </form>
+
+                    </div>
+                }
+                else
+                {
+                    <div class="alert alert-info mt-4">
+                        Please login to leave a review.
+                    </div>
+                }
+
+
+                <!-- BUTTONS -->
+
+
+                <div class="d-flex justify-content-center gap-3 flex-wrap mt-4">
+
+
+                    <a asp-controller="Products"
+                       asp-action="Index"
+                       class="btn btn-warning px-4 fw-bold">
+
+                        🛍 Continue Shopping
+
+                    </a>
+
+
+
+
+                    <a asp-controller="Orders"
+                       asp-action="MyOrders"
+                       class="btn btn-outline-primary px-4 fw-bold">
+
+                        📦 View My Orders
+
+                    </a>
+
+
+
+                </div>
+
+
+
+
+                <p class="text-muted small mt-4">
+
+                    📞 Thank you for choosing Sem Fashion Kids.
+
+                </p>
+
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>

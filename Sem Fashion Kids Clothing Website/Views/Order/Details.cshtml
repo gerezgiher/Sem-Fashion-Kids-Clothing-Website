@@ -1,0 +1,509 @@
+﻿@model Sem_Fashion_Kids_Clothing_Website.Models.Order
+
+@{
+    ViewData["Title"] = "Order Details";
+}
+
+
+<div class="container py-5">
+
+
+    <!-- HEADER -->
+    <div class="d-flex justify-content-between align-items-center mb-4">
+
+        <div>
+
+            <h2 class="fw-bold">
+                📦 Order #@Model.Id
+            </h2>
+
+            <p class="text-muted mb-0">
+                Placed on @Model.OrderDate.ToString("dd MMM yyyy hh:mm tt")
+            </p>
+
+        </div>
+
+
+        <div>
+
+            @if (Model.Status == "Approved")
+            {
+                <span class="badge bg-success rounded-pill px-4 py-2">
+                    ✅ Confirmed
+                </span>
+            }
+            else if (Model.Status == "Rejected")
+            {
+                <span class="badge bg-danger rounded-pill px-4 py-2">
+                    ❌ Rejected
+                </span>
+            }
+            else
+            {
+                <span class="badge bg-warning text-dark rounded-pill px-4 py-2">
+                    ⏳ Payment Review
+                </span>
+            }
+
+        </div>
+
+    </div>
+
+
+
+    <!-- ORDER TRACKING -->
+
+    <div class="card border-0 shadow-sm rounded-4 mb-4">
+
+        <div class="card-body p-4">
+
+            <h5 class="fw-bold mb-4">
+                🚚 Order Status
+            </h5>
+
+
+            <div class="tracking">
+
+                <div class="track-step active">
+
+                    <div class="circle">
+                        ✓
+                    </div>
+
+                    <span>
+                        Ordered
+                    </span>
+
+                </div>
+
+
+
+                <div class="track-line @(Model.Status=="Approved" ? "active":"")"></div>
+
+
+
+                <div class="track-step @(Model.Status=="Approved" ? "active":"")">
+
+                    <div class="circle">
+                        @(Model.Status == "Approved" ? "✓" : "2")
+                    </div>
+
+                    <span>
+                        Confirmed
+                    </span>
+
+                </div>
+
+
+
+                <div class="track-line @(Model.Status=="Approved" ? "active":"")"></div>
+
+
+
+                <div class="track-step">
+
+                    <div class="circle">
+                        3
+                    </div>
+
+                    <span>
+                        Delivery
+                    </span>
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+
+
+    <div class="row g-4">
+
+
+        <!-- CUSTOMER ADDRESS -->
+
+        <div class="col-lg-6">
+
+            <div class="card border-0 shadow-sm rounded-4 h-100">
+
+                <div class="card-body p-4">
+
+
+                    <h5 class="fw-bold">
+                        📍 Delivery Information
+                    </h5>
+
+                    <hr>
+
+
+                    <p>
+                        <strong>Name</strong><br />
+                        @Model.CustomerName
+                    </p>
+
+
+                    <p>
+                        <strong>Phone</strong><br />
+                        @Model.Phone
+                    </p>
+
+
+                    <p>
+                        <strong>Address</strong><br />
+                        @Model.Address
+                    </p>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+
+        <!-- PAYMENT -->
+
+        <div class="col-lg-6">
+
+            <div class="card border-0 shadow-sm rounded-4 h-100">
+
+                <div class="card-body p-4">
+
+
+                    <h5 class="fw-bold">
+                        💳 Payment Summary
+                    </h5>
+
+                    <hr>
+
+
+                    <p>
+                        Payment Method:
+
+                        @if (Model.PaymentMethod == "Telebirr")
+                        {
+                            <span class="badge bg-primary">
+                                📱 Telebirr
+                            </span>
+                        }
+                        else if (Model.PaymentMethod == "Bank")
+                        {
+                            <span class="badge bg-dark">
+                                🏦 Bank Transfer
+                            </span>
+                        }
+
+                    </p>
+
+
+
+                    <p>
+                        Reference:
+
+                        @if (!string.IsNullOrEmpty(Model.PaymentReference))
+                        {
+                            <strong>
+                                @Model.PaymentReference
+                            </strong>
+                        }
+                        else
+                        {
+                            <span class="text-muted">
+                                Not provided
+                            </span>
+                        }
+
+                    </p>
+
+
+
+                    <h3 class="text-success fw-bold">
+                        @Model.TotalAmount.ToString("N2") ETB
+                    </h3>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+    <!-- PAYMENT RECEIPT -->
+    @if (!string.IsNullOrEmpty(Model.PaymentProofImage))
+    {
+
+        <div class="card border-0 shadow-sm rounded-4 mt-4">
+
+            <div class="card-body p-4">
+
+
+                <h5 class="fw-bold">
+                    🧾 Payment Receipt
+                </h5>
+
+
+                <hr />
+
+
+                <img src="~/uploads/@Model.PaymentProofImage"
+                     class="img-fluid rounded shadow receipt-img"
+                     style="max-width:400px; cursor:pointer;"
+                     onclick="showImage(this.src)"
+                     alt="Payment Receipt" />
+
+
+                <p class="text-muted small mt-2">
+                    🔍 Click image to zoom
+                </p>
+
+
+            </div>
+
+        </div>
+
+    }
+
+
+
+
+
+
+
+    <!-- SUPPORT BUTTONS -->
+
+    <div class="mt-4 d-flex gap-2 flex-wrap">
+
+
+        <a class="btn btn-success rounded-pill px-4"
+           target="_blank"
+           href="@($"https://wa.me/251936882896?text=Hello%20Sem%20Fashion%20Support,%20my%20order%20ID%20is%20#{Model.Id}")">
+
+            💬 Contact Support
+
+        </a>
+
+
+
+
+        @if (User.IsInRole("Admin"))
+        {
+
+            <a asp-controller="Order"
+               asp-action="Index"
+               class="btn btn-outline-secondary rounded-pill px-4">
+
+                ← Orders Management
+
+            </a>
+
+        }
+        else
+        {
+
+            <a asp-controller="Order"
+               asp-action="MyOrders"
+               class="btn btn-outline-secondary rounded-pill px-4">
+
+                ← My Orders
+
+            </a>
+
+        }
+
+
+    </div>
+
+
+</div>
+
+
+
+
+
+<!-- RECEIPT ZOOM MODAL -->
+
+<div class="modal fade"
+     id="imageModal"
+     tabindex="-1">
+
+
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+
+
+        <div class="modal-content bg-transparent border-0">
+
+
+            <div class="modal-body text-center position-relative">
+
+
+                <button type="button"
+                        class="btn-close btn-close-white position-absolute top-0 end-0 m-3"
+                        data-bs-dismiss="modal">
+                </button>
+
+
+
+                <img id="modalImage"
+                     class="img-fluid rounded shadow zoom-image"
+                     style="max-height:90vh; cursor:zoom-in;" />
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+</div>
+
+
+
+
+
+
+
+
+<style>
+
+
+    .tracking {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .track-step {
+        text-align: center;
+        min-width: 120px;
+        color: #999;
+    }
+
+
+        .track-step.active {
+            color: #198754;
+        }
+
+
+    .circle {
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        background: #ddd;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        font-weight: bold;
+    }
+
+
+    .track-step.active .circle {
+        background: #198754;
+        color: white;
+    }
+
+
+    .track-line {
+        width: 100px;
+        height: 4px;
+        background: #ddd;
+    }
+
+
+        .track-line.active {
+            background: #198754;
+        }
+
+
+    .zoom-image {
+        transition: transform .3s ease;
+    }
+
+
+    @@media(max-width:768px) {
+
+        .tracking {
+            overflow-x: auto;
+            justify-content: flex-start;
+        }
+    }
+
+</style>
+
+
+
+
+
+@section Scripts {
+
+    <script>
+
+
+        function showImage(src)
+        {
+
+            document.getElementById("modalImage").src = src;
+
+
+            var modal = new bootstrap.Modal(
+                document.getElementById("imageModal")
+            );
+
+
+            modal.show();
+
+        }
+
+
+
+        // Click inside modal image to zoom
+
+        document.addEventListener("click", function(e)
+        {
+
+            if(e.target.id === "modalImage")
+            {
+
+                if(e.target.style.transform === "scale(1.8)")
+                {
+
+                    e.target.style.transform="scale(1)";
+                    e.target.style.cursor="zoom-in";
+
+                }
+                else
+                {
+
+                    e.target.style.transform="scale(1.8)";
+                    e.target.style.cursor="zoom-out";
+
+                }
+
+            }
+
+        });
+
+
+    </script>
+
+}

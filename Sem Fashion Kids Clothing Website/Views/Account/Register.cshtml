@@ -1,0 +1,71 @@
+﻿@{
+    ViewData["Title"] = "Register";
+}
+
+<div class="container d-flex justify-content-center align-items-center" style="min-height:80vh;">
+
+    <div class="card shadow-lg p-4" style="width: 420px; border-radius:15px;">
+
+        <h3 class="text-center mb-4">📝 Create Account</h3>
+
+        @if (ViewBag.Error != null)
+        {
+            <div class="alert alert-danger text-center">
+                @ViewBag.Error
+            </div>
+        }
+
+        <form asp-action="Register" method="post" autocomplete="off">
+            <div class="mb-3">
+                <label class="form-label">Full Name</label>
+
+                <input type="text"
+                       name="fullName"
+                       class="form-control"
+                       placeholder="Enter your full name"
+                       required />
+            </div>
+            <!-- EMAIL -->
+            <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input type="email"
+                       name="email"
+                       class="form-control"
+                       placeholder="Enter your email"
+                       value=""
+                       required />
+            </div>
+
+            <!-- PASSWORD -->
+            <div class="mb-3">
+                <label class="form-label">Password</label>
+                <input type="password"
+                       name="password"
+                       class="form-control"
+                       placeholder="Enter password"
+                       value=""
+                       required />
+            </div>
+
+            <!-- INFO -->
+            <div class="alert alert-info text-center small">
+                By creating an account, you become a <b>Customer</b>.
+            </div>
+
+            <!-- SUBMIT -->
+            <button type="submit" class="btn btn-success w-100">
+                Create Account
+            </button>
+
+        </form>
+
+        <div class="text-center mt-3">
+            <small>
+                Already have an account?
+                <a asp-action="Login">Login</a>
+            </small>
+        </div>
+
+    </div>
+
+</div>

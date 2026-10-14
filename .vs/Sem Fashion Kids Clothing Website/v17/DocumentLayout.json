@@ -1,0 +1,652 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Sem Fashion Kids Clothing Website\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|c:\\users\\sem fashion kids clothing website\\sem fashion kids clothing website\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|solutionrelative:sem fashion kids clothing website\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|c:\\users\\sem fashion kids clothing website\\sem fashion kids clothing website\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|solutionrelative:sem fashion kids clothing website\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|c:\\users\\sem fashion kids clothing website\\sem fashion kids clothing website\\views\\reviews\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|solutionrelative:sem fashion kids clothing website\\views\\reviews\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|c:\\users\\sem fashion kids clothing website\\sem fashion kids clothing website\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|solutionrelative:sem fashion kids clothing website\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|c:\\users\\sem fashion kids clothing website\\sem fashion kids clothing website\\views\\reviews\\myreviews.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|solutionrelative:sem fashion kids clothing website\\views\\reviews\\myreviews.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|c:\\users\\sem fashion kids clothing website\\sem fashion kids clothing website\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|solutionrelative:sem fashion kids clothing website\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|c:\\users\\sem fashion kids clothing website\\sem fashion kids clothing website\\controllers\\reviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|solutionrelative:sem fashion kids clothing website\\controllers\\reviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|c:\\users\\sem fashion kids clothing website\\sem fashion kids clothing website\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|solutionrelative:sem fashion kids clothing website\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|c:\\users\\sem fashion kids clothing website\\sem fashion kids clothing website\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|solutionrelative:sem fashion kids clothing website\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|c:\\users\\sem fashion kids clothing website\\sem fashion kids clothing website\\views\\reviews\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|solutionrelative:sem fashion kids clothing website\\views\\reviews\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|c:\\users\\sem fashion kids clothing website\\sem fashion kids clothing website\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|solutionrelative:sem fashion kids clothing website\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|c:\\users\\sem fashion kids clothing website\\sem fashion kids clothing website\\views\\reviews\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|solutionrelative:sem fashion kids clothing website\\views\\reviews\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|c:\\users\\sem fashion kids clothing website\\sem fashion kids clothing website\\views\\reviews\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|solutionrelative:sem fashion kids clothing website\\views\\reviews\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|c:\\users\\sem fashion kids clothing website\\sem fashion kids clothing website\\models\\semfashionkidsmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|solutionrelative:sem fashion kids clothing website\\models\\semfashionkidsmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|c:\\users\\sem fashion kids clothing website\\sem fashion kids clothing website\\views\\order\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|solutionrelative:sem fashion kids clothing website\\views\\order\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|c:\\users\\sem fashion kids clothing website\\sem fashion kids clothing website\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|solutionrelative:sem fashion kids clothing website\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|c:\\users\\sem fashion kids clothing website\\sem fashion kids clothing website\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|solutionrelative:sem fashion kids clothing website\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|c:\\users\\sem fashion kids clothing website\\sem fashion kids clothing website\\views\\order\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|solutionrelative:sem fashion kids clothing website\\views\\order\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|c:\\users\\sem fashion kids clothing website\\sem fashion kids clothing website\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|solutionrelative:sem fashion kids clothing website\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|c:\\users\\sem fashion kids clothing website\\sem fashion kids clothing website\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|solutionrelative:sem fashion kids clothing website\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|c:\\users\\sem fashion kids clothing website\\sem fashion kids clothing website\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|solutionrelative:sem fashion kids clothing website\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|c:\\users\\sem fashion kids clothing website\\sem fashion kids clothing website\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|solutionrelative:sem fashion kids clothing website\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Migrations\\20260518075421_AddFullNameToAspNetUsers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Sem Fashion Kids Clothing Website\\Migrations\\20260518075421_AddFullNameToAspNetUsers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|c:\\users\\sem fashion kids clothing website\\sem fashion kids clothing website\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|solutionrelative:sem fashion kids clothing website\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|c:\\users\\sem fashion kids clothing website\\sem fashion kids clothing website\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|solutionrelative:sem fashion kids clothing website\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Migrations\\20260515073135_update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Sem Fashion Kids Clothing Website\\Migrations\\20260515073135_update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|c:\\users\\sem fashion kids clothing website\\sem fashion kids clothing website\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|solutionrelative:sem fashion kids clothing website\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|c:\\users\\sem fashion kids clothing website\\sem fashion kids clothing website\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|solutionrelative:sem fashion kids clothing website\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|c:\\users\\sem fashion kids clothing website\\sem fashion kids clothing website\\sem fashion kids clothing website.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|solutionrelative:sem fashion kids clothing website\\sem fashion kids clothing website.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|c:\\users\\sem fashion kids clothing website\\sem fashion kids clothing website\\services\\telebirrservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|solutionrelative:sem fashion kids clothing website\\services\\telebirrservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|c:\\users\\sem fashion kids clothing website\\sem fashion kids clothing website\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|solutionrelative:sem fashion kids clothing website\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|c:\\users\\sem fashion kids clothing website\\sem fashion kids clothing website\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|solutionrelative:sem fashion kids clothing website\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|c:\\users\\sem fashion kids clothing website\\sem fashion kids clothing website\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|solutionrelative:sem fashion kids clothing website\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|c:\\users\\sem fashion kids clothing website\\sem fashion kids clothing website\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|solutionrelative:sem fashion kids clothing website\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|c:\\users\\sem fashion kids clothing website\\sem fashion kids clothing website\\migrations\\20260518081651_initialcreatee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|solutionrelative:sem fashion kids clothing website\\migrations\\20260518081651_initialcreatee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|c:\\users\\sem fashion kids clothing website\\sem fashion kids clothing website\\migrations\\20260518075656_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|solutionrelative:sem fashion kids clothing website\\migrations\\20260518075656_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|c:\\users\\sem fashion kids clothing website\\sem fashion kids clothing website\\migrations\\20260709061316_review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|solutionrelative:sem fashion kids clothing website\\migrations\\20260709061316_review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|c:\\users\\sem fashion kids clothing website\\sem fashion kids clothing website\\migrations\\20260709063308_uuu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B703710F-BD3C-403D-B102-1D7E98F72F79}|Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj|solutionrelative:sem fashion kids clothing website\\migrations\\20260709063308_uuu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 14,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Views\\Reviews\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Sem Fashion Kids Clothing Website\\Views\\Reviews\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Views\\Reviews\\Delete.cshtml",
+              "RelativeToolTip": "Sem Fashion Kids Clothing Website\\Views\\Reviews\\Delete.cshtml",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAwwF8AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-09T07:05:25.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Views\\Reviews\\Index.cshtml",
+              "RelativeDocumentMoniker": "Sem Fashion Kids Clothing Website\\Views\\Reviews\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Views\\Reviews\\Index.cshtml",
+              "RelativeToolTip": "Sem Fashion Kids Clothing Website\\Views\\Reviews\\Index.cshtml",
+              "ViewState": "AQIAAHIAAAAAAAAAAAAAACYAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-09T06:49:22.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MyReviews.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Views\\Reviews\\MyReviews.cshtml",
+              "RelativeDocumentMoniker": "Sem Fashion Kids Clothing Website\\Views\\Reviews\\MyReviews.cshtml",
+              "ToolTip": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Views\\Reviews\\MyReviews.cshtml",
+              "RelativeToolTip": "Sem Fashion Kids Clothing Website\\Views\\Reviews\\MyReviews.cshtml",
+              "ViewState": "AQIAALgAAAAAAAAAAAAAALsAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-09T06:35:58.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Views\\Reviews\\Create.cshtml",
+              "RelativeDocumentMoniker": "Sem Fashion Kids Clothing Website\\Views\\Reviews\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Views\\Reviews\\Create.cshtml",
+              "RelativeToolTip": "Sem Fashion Kids Clothing Website\\Views\\Reviews\\Create.cshtml",
+              "ViewState": "AQIAAHcAAAAAAAAAAAAwwIYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-09T06:24:42.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Sem Fashion Kids Clothing Website\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Sem Fashion Kids Clothing Website\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAkBAAAAAAAAAAAQwA0BAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-22T13:34:00.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SemFashionKidsModels.cs",
+              "DocumentMoniker": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Models\\SemFashionKidsModels.cs",
+              "RelativeDocumentMoniker": "Sem Fashion Kids Clothing Website\\Models\\SemFashionKidsModels.cs",
+              "ToolTip": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Models\\SemFashionKidsModels.cs",
+              "RelativeToolTip": "Sem Fashion Kids Clothing Website\\Models\\SemFashionKidsModels.cs",
+              "ViewState": "AQIAAIkAAAAAAAAAAAA5wJQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T12:53:25.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\appsettings.json",
+              "RelativeDocumentMoniker": "Sem Fashion Kids Clothing Website\\appsettings.json",
+              "ToolTip": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\appsettings.json",
+              "RelativeToolTip": "Sem Fashion Kids Clothing Website\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAACYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-22T12:43:54.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Views\\Order\\Index.cshtml",
+              "RelativeDocumentMoniker": "Sem Fashion Kids Clothing Website\\Views\\Order\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Views\\Order\\Index.cshtml",
+              "RelativeToolTip": "Sem Fashion Kids Clothing Website\\Views\\Order\\Index.cshtml",
+              "ViewState": "AQIAACwAAAAAAAAAAAAUwC0AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-23T08:05:38.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Sem Fashion Kids Clothing Website\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Sem Fashion Kids Clothing Website\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAKMAAAAAAAAAAAAAALIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-22T12:31:10.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Sem Fashion Kids Clothing Website\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Sem Fashion Kids Clothing Website\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAAAC8AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T13:17:50.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Program.cs",
+              "RelativeDocumentMoniker": "Sem Fashion Kids Clothing Website\\Program.cs",
+              "ToolTip": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Program.cs",
+              "RelativeToolTip": "Sem Fashion Kids Clothing Website\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T12:33:51.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "Sem Fashion Kids Clothing Website\\Views\\Category\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "Sem Fashion Kids Clothing Website\\Views\\Category\\Index.cshtml",
+              "ViewState": "AQIAADQAAAAAAAAAAAAwwEYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-09T08:18:19.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ReviewsController.cs",
+              "DocumentMoniker": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Controllers\\ReviewsController.cs",
+              "RelativeDocumentMoniker": "Sem Fashion Kids Clothing Website\\Controllers\\ReviewsController.cs",
+              "ToolTip": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Controllers\\ReviewsController.cs",
+              "RelativeToolTip": "Sem Fashion Kids Clothing Website\\Controllers\\ReviewsController.cs",
+              "ViewState": "AQIAAP8AAAAAAAAAAAAAABABAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-09T06:23:31.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Data\\SeedData.cs",
+              "RelativeDocumentMoniker": "Sem Fashion Kids Clothing Website\\Data\\SeedData.cs",
+              "ToolTip": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Data\\SeedData.cs",
+              "RelativeToolTip": "Sem Fashion Kids Clothing Website\\Data\\SeedData.cs",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAYwGkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T13:43:52.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Views\\Reviews\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Sem Fashion Kids Clothing Website\\Views\\Reviews\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Views\\Reviews\\Edit.cshtml",
+              "RelativeToolTip": "Sem Fashion Kids Clothing Website\\Views\\Reviews\\Edit.cshtml",
+              "ViewState": "AQIAAG8AAAAAAAAAAAAwwIEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-09T07:01:35.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Checkout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Views\\Order\\Checkout.cshtml",
+              "RelativeDocumentMoniker": "Sem Fashion Kids Clothing Website\\Views\\Order\\Checkout.cshtml",
+              "ToolTip": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Views\\Order\\Checkout.cshtml",
+              "RelativeToolTip": "Sem Fashion Kids Clothing Website\\Views\\Order\\Checkout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAALkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-04T16:38:06.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Success.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Views\\Order\\Success.cshtml",
+              "RelativeDocumentMoniker": "Sem Fashion Kids Clothing Website\\Views\\Order\\Success.cshtml",
+              "ToolTip": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Views\\Order\\Success.cshtml",
+              "RelativeToolTip": "Sem Fashion Kids Clothing Website\\Views\\Order\\Success.cshtml",
+              "ViewState": "AQIAAC0BAAAAAAAAAAAAAD4BAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-09T06:25:08.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "20260709063308_uuu.cs",
+              "DocumentMoniker": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Migrations\\20260709063308_uuu.cs",
+              "RelativeDocumentMoniker": "Sem Fashion Kids Clothing Website\\Migrations\\20260709063308_uuu.cs",
+              "ToolTip": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Migrations\\20260709063308_uuu.cs",
+              "RelativeToolTip": "Sem Fashion Kids Clothing Website\\Migrations\\20260709063308_uuu.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-09T06:33:08.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Sem Fashion Kids Clothing Website\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Sem Fashion Kids Clothing Website\\Views\\Account\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-22T13:33:25.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "Sem Fashion Kids Clothing Website\\Views\\Products\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "Sem Fashion Kids Clothing Website\\Views\\Products\\Index.cshtml",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAAAE8AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-23T07:07:24.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Sem Fashion Kids Clothing Website\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Sem Fashion Kids Clothing Website\\Controllers\\OrderController.cs",
+              "ViewState": "AQIAAAsBAAAAAAAAAAAqwBwBAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T13:57:42.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "20260709061316_Review.cs",
+              "DocumentMoniker": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Migrations\\20260709061316_Review.cs",
+              "RelativeDocumentMoniker": "Sem Fashion Kids Clothing Website\\Migrations\\20260709061316_Review.cs",
+              "ToolTip": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Migrations\\20260709061316_Review.cs",
+              "RelativeToolTip": "Sem Fashion Kids Clothing Website\\Migrations\\20260709061316_Review.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACcAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-09T06:13:17.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "Sem Fashion Kids Clothing Website\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "Sem Fashion Kids Clothing Website\\Views\\Cart\\Index.cshtml",
+              "ViewState": "AQIAAGkAAAAAAAAAAAAAAAAAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-22T13:00:11.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Sem Fashion Kids Clothing Website\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Sem Fashion Kids Clothing Website\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAwwMEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T13:57:23.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Sem Fashion Kids Clothing Website\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Sem Fashion Kids Clothing Website\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAYwGoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T13:30:35.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "20260518081651_InitialCreatee.cs",
+              "DocumentMoniker": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Migrations\\20260518081651_InitialCreatee.cs",
+              "RelativeDocumentMoniker": "Sem Fashion Kids Clothing Website\\Migrations\\20260518081651_InitialCreatee.cs",
+              "ToolTip": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Migrations\\20260518081651_InitialCreatee.cs",
+              "RelativeToolTip": "Sem Fashion Kids Clothing Website\\Migrations\\20260518081651_InitialCreatee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T08:16:51.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "20260518075421_AddFullNameToAspNetUsers.cs",
+              "DocumentMoniker": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Migrations\\20260518075421_AddFullNameToAspNetUsers.cs",
+              "RelativeDocumentMoniker": "Sem Fashion Kids Clothing Website\\Migrations\\20260518075421_AddFullNameToAspNetUsers.cs",
+              "ToolTip": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Migrations\\20260518075421_AddFullNameToAspNetUsers.cs",
+              "RelativeToolTip": "Sem Fashion Kids Clothing Website\\Migrations\\20260518075421_AddFullNameToAspNetUsers.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T07:54:21.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "20260518075656_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Migrations\\20260518075656_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Sem Fashion Kids Clothing Website\\Migrations\\20260518075656_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Migrations\\20260518075656_InitialCreate.cs",
+              "RelativeToolTip": "Sem Fashion Kids Clothing Website\\Migrations\\20260518075656_InitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T07:56:56.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Sem Fashion Kids Clothing Website\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Sem Fashion Kids Clothing Website\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T12:52:20.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Sem Fashion Kids Clothing Website\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Sem Fashion Kids Clothing Website\\Controllers\\CartController.cs",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAYwH0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T12:36:26.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "Sem Fashion Kids Clothing Website\\Controllers\\PaymentController.cs",
+              "ToolTip": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "Sem Fashion Kids Clothing Website\\Controllers\\PaymentController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwCgAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T16:23:34.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20260515073135_update.cs",
+              "DocumentMoniker": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Migrations\\20260515073135_update.cs",
+              "RelativeDocumentMoniker": "Sem Fashion Kids Clothing Website\\Migrations\\20260515073135_update.cs",
+              "ToolTip": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Migrations\\20260515073135_update.cs",
+              "RelativeToolTip": "Sem Fashion Kids Clothing Website\\Migrations\\20260515073135_update.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAYwAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T07:31:36.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Sem Fashion Kids Clothing Website.csproj",
+              "DocumentMoniker": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj",
+              "RelativeDocumentMoniker": "Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj",
+              "ToolTip": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj",
+              "RelativeToolTip": "Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-04T16:17:03.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "TelebirrService.cs",
+              "DocumentMoniker": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Services\\TelebirrService.cs",
+              "RelativeDocumentMoniker": "Sem Fashion Kids Clothing Website\\Services\\TelebirrService.cs",
+              "ToolTip": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Services\\TelebirrService.cs",
+              "RelativeToolTip": "Sem Fashion Kids Clothing Website\\Services\\TelebirrService.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAIwEoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T16:17:48.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Sem Fashion Kids Clothing Website\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Sem Fashion Kids Clothing Website\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAowCsAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T13:58:15.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Sem Fashion Kids Clothing Website\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Sem Fashion Kids Clothing Website\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAQwD4AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-22T13:32:52.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Views\\Products\\Create.cshtml",
+              "RelativeDocumentMoniker": "Sem Fashion Kids Clothing Website\\Views\\Products\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Views\\Products\\Create.cshtml",
+              "RelativeToolTip": "Sem Fashion Kids Clothing Website\\Views\\Products\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-23T07:22:09.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Views\\Products\\Details.cshtml",
+              "RelativeDocumentMoniker": "Sem Fashion Kids Clothing Website\\Views\\Products\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Sem Fashion Kids Clothing Website\\Sem Fashion Kids Clothing Website\\Views\\Products\\Details.cshtml",
+              "RelativeToolTip": "Sem Fashion Kids Clothing Website\\Views\\Products\\Details.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAswCkAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-23T07:53:24.731Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+﻿@model Sem_Fashion_Kids_Clothing_Website.Models.Category
+
+<h2 class="text-center">✏ Edit Category</h2>
+
+<form asp-action="Edit" method="post">
+
+    <input type="hidden" asp-for="Id" />
+
+    <div class="mb-3">
+        <label>Name</label>
+        <input asp-for="Name" class="form-control" />
+    </div>
+
+    <button class="btn btn-primary">Update</button>
+
+</form>

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Sem Fashion Kids Clothing Website.props" />
+</Project>
